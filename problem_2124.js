@@ -3,14 +3,24 @@
 
 // My solution:
 
+// var checkString = function(s) {
+    
+//     for (let i = 0; i < s.length; i++) {
+//         if (s.includes("ba")) {
+//             return false
+//         } else {
+//             return true
+//         }
+//     }
+    
+// };
+
+// Updated Solution:
+
 var checkString = function(s) {
-    
-    for (let i = 0; i < s.length; i++) {
-        if (s.includes("ba")) {
-            return false
-        } else {
-            return true
-        }
-    }
-    
+    if (s.includes("ba")) {
+        return false
+    } else {
+        return true
+    } 
 };
